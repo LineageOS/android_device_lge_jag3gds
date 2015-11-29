@@ -37,7 +37,8 @@ BOARD_HAS_NFC := false
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=3 \
-    ro.sf.lcd_density=320
+    ro.sf.lcd_density=320 \
+    persist.radio.multisim.config=dsds
 
 PRODUCT_PACKAGES += hwaddrs
 
