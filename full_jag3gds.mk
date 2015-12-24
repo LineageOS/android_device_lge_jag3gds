@@ -22,6 +22,5 @@ $(call inherit-product, device/lge/jag3gds/device_jag3gds.mk)
 PRODUCT_DEVICE := jag3gds
 PRODUCT_NAME := full_jag3gds
 PRODUCT_BRAND := lge
-PRODUCT_MODEL := LG-D724
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_RELEASE_NAME := LG G3s
