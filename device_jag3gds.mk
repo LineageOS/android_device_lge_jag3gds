@@ -41,7 +41,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=dsds \
     persist.multisim.config=dsds \
     persist.radio.dont_use_dsd=true \
-    ro.telephony.ril.config=simactivation
+    ro.telephony.ril.config=simactivation \
+    ro.config.vc_call_vol_steps=6
 
 PRODUCT_PACKAGES += hwaddrs
 
