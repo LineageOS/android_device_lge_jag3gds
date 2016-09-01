@@ -32,7 +32,7 @@ TARGET_BOOTLOADER_BOARD_NAME := jag3gds
 BOARD_HAVE_BLUETOOTH_BCM := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/jag3gds/bluetooth
 BOARD_HAVE_BLUETOOTH := true
-BOARD_BLUEDROID_VENDOR_CONF := device/lge/jag3gds/bluetooth/vnd_g3s.txt
+BOARD_CUSTOM_BT_CONFIG := device/lge/jag3gds/bluetooth/vnd_g3s.txt
 
 # Wifi
 WPA_SUPPLICANT_VERSION := VER_0_8_X
