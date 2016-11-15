@@ -25,7 +25,8 @@ DEVICE_PACKAGE_OVERLAYS += device/lge/jag3gds/overlay
 PRODUCT_COPY_FILES += \
     device/lge/jag3gds/prebuilt/etc/media_profiles.xml:system/etc/media_profiles.xml \
     device/lge/jag3gds/prebuilt/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
-    device/lge/jag3gds/prebuilt/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal
+    device/lge/jag3gds/prebuilt/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
+    device/lge/jag3gds/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
