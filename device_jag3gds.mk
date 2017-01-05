@@ -47,6 +47,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGES += hwaddrs
 
+# FlipFlap
+PRODUCT_PACKAGES += \
+    FlipFlap
+
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
