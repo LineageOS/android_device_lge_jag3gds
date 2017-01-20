@@ -47,6 +47,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGES += hwaddrs
 
+# FM
+PRODUCT_PACKAGES += \
+    FMRadio \
+    brcm-uim-sysfs \
+    libfmjni
+
 # Inherit from msm8226-common
 $(call inherit-product, device/lge/msm8226-common/msm8226.mk)
 $(call inherit-product, vendor/lge/jag3gds/jag3gds-vendor.mk)
