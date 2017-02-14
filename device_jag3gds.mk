@@ -53,6 +53,10 @@ PRODUCT_PACKAGES += \
     brcm-uim-sysfs \
     libfmjni
 
+# CMActions
+PRODUCT_PACKAGES += \
+    CMActions
+
 # Inherit from msm8226-common
 $(call inherit-product, device/lge/msm8226-common/msm8226.mk)
 $(call inherit-product, vendor/lge/jag3gds/jag3gds-vendor.mk)
